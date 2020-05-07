@@ -110,6 +110,7 @@ var line = d3.svg.line()
             d += " " + mouse[0] + "," + 0;
             return d;
           });
+          updateTable(mouse[0]);
   
       });
 }
