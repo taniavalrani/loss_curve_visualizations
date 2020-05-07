@@ -6,9 +6,6 @@
 		var h = 200 - m[0] - m[2]; // height
 
     function render1(data){
-      console.log(data)
-      data = constant_learning_rate;
-      console.log(data)
 
 		var x = d3.scale.linear().domain([0, data.length]).range([0, w]);
 

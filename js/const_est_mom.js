@@ -7,7 +7,7 @@
 		// var data = constant_Nesterov_momentum
     // render3(data);
     function render3(data){
-    data = constant_Nesterov_momentum;
+
 		var x = d3.scale.linear().domain([0, data.length]).range([0, w]);
 
 		var y = d3.scale.linear().domain([0, 1]).range([h, 0]);
